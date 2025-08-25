@@ -2,8 +2,7 @@
 
 Submitted by: **Ivie Imhonde**
 
-About this web app: ** A lightweight Vite + React Router app that lets you **create, read, update, and delete** your favorite content creators (YouTube, Twitch, TikTok, Instagram, Mastodon, etc.). Uses `fetch` + async/await against a SUpabase server REST API. Optional styling via PicoCSS.
-**
+About this web app: **A lightweight Vite + React Router app that lets you **create, read, update, and delete** your favorite content creators (YouTube, Twitch, TikTok, Instagram, Mastodon, etc.). Uses `fetch` + async/await against a SUpabase server REST API. Optional styling via PicoCSS.**
 
 Time spent: **3** hours
 
@@ -45,7 +44,7 @@ Uploaded with Youtube
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+Nacigating the documentation for routers specifically was confusing since there were discrepancies with the url provided by the prework
 
 ## License
 
