@@ -11,7 +11,7 @@ Time spent: **3** hours
 The following **required** functionality is completed:
 
 <!--  Make sure to check off completed functionality below -->
-- [ ] **A logical component structure in React is used to create the frontend of the app**
+- [✔️ ] **A logical component structure in React is used to create the frontend of the app**
 - [ X] **At least five content creators are displayed on the homepage of the app**
 - [ X] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
 - [X ] **API calls use the async/await design pattern via Axios or fetch()**
