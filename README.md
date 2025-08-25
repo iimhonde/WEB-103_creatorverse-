@@ -1,11 +1,11 @@
 # WEB103 Prework - * Creatorverse*
 
-Submitted by: ** Ivie Imhonde**
+Submitted by: ** Ivie Imhonde **
 
 About this web app: ** A lightweight Vite + React Router app that lets you **create, read, update, and delete** your favorite content creators (YouTube, Twitch, TikTok, Instagram, Mastodon, etc.). Uses `fetch` + async/await against a SUpabase server REST API. Optional styling via PicoCSS.
 **
 
-Time spent: ** 3** hours
+Time spent: ** 3 ** hours
 
 ## Required Features
 
