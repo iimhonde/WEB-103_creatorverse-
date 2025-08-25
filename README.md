@@ -38,7 +38,7 @@ Custom background image and overlay for enhanced visual appeal.
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://youtu.be/muKpVkFASrE' title='WEB 101- Demo_Ivie Imhonde' width='' alt='WEB 101- Demo_Ivie Imhonde' />
+[![WEB 101- Demo_Ivie Imhonde](https://img.youtube.com/vi/muKpVkFASrE/0.jpg)](https://youtu.be/muKpVkFASrE "WEB 101- Demo_Ivie Imhonde")
 
 Uploaded with Youtube
 
