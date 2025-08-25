@@ -1,3 +1,25 @@
+.creator-card-actions {
+	display: flex;
+	gap: 1rem;
+	margin-top: 0.5rem;
+	justify-content: center;
+}
+
+.creator-btn {
+	background-color: #4b2e6d;
+	color: #fff;
+	border: none;
+	border-radius: 8px;
+	padding: 0.5rem 1.2rem;
+	font-weight: bold;
+	cursor: pointer;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+	transition: background 0.2s;
+}
+
+.creator-btn:hover {
+	background-color: #6c3fa9;
+}
 /* CreatorCard styles */
 .creator-card {
 	background: #fff;
@@ -19,19 +41,31 @@
 .creator-image {
 	width: 96px;
 	height: 96px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.10);
 	object-fit: cover;
 	border-radius: 50%;
-	margin-bottom: 1rem;
-	background: #f0f0f0;
+}
+.creator-name {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+	color: #4b2e6d;
 }
 
+.creator-link {
+	color: #0d6efd;
+	text-decoration: none;
+	font-weight: 500;
+	margin-bottom: 1.5rem;
+	font-size: 1.1rem;
+	transition: color 0.2s;
+}
+
+.creator-link:hover {
+	color: #0056b3;
+}
 .creator-card h2 {
-	font-size: 1.3rem;
-	margin: 0.5rem 0;
-}
 
-.creator-card p {
-	font-size: 1rem;
 	color: #444;
 	margin-bottom: 0.75rem;
 	text-align: center;

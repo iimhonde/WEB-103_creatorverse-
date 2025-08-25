@@ -4,21 +4,20 @@ import PropTypes from 'prop-types';
 import './CreatorCard.css';
 import { useNavigate } from 'react-router-dom';
 
-const CreatorCard = ({ id, name, url, description, imageURL }) => {
+const CreatorCard = ({ id, name, url, imageURL }) => {
   const navigate = useNavigate();
   return (
-    <article className="creator-card card" style={{padding:'2rem', boxShadow:'var(--card-box-shadow)'}}>
-      {imageURL && <img src={imageURL} alt={name} className="creator-image" style={{marginBottom:'1rem'}} />}
-      <h2>{name}</h2>
-      <p>{description}</p>
-      <a className="secondary" href={url} target="_blank" rel="noopener noreferrer">Visit</a>
+    <div className="creator-card">
+      {imageURL && <img src={imageURL} alt={name} className="creator-image" />}
+      <h2 className="creator-name">{name}</h2>
+      <a className="creator-link" href={url} target="_blank" rel="noopener noreferrer">Visit</a>
       {id && (
-        <div style={{marginTop:'1rem', display:'flex', gap:'0.5rem'}}>
-          <button className="outline" onClick={() => navigate(`/creator/${id}`)}>View</button>
-          <button className="contrast" onClick={() => navigate(`/edit/${id}`)}>Edit</button>
+        <div className="creator-card-actions">
+          <button className="creator-btn" onClick={() => navigate(`/creator/${id}`)}>View</button>
+          <button className="creator-btn" onClick={() => navigate(`/edit/${id}`)}>Edit</button>
         </div>
       )}
-    </article>
+    </div>
   );
 };
 
@@ -26,7 +25,6 @@ CreatorCard.propTypes = {
   id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   name: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
   imageURL: PropTypes.string,
 };
 

@@ -15,9 +15,11 @@ const ShowCreators = ({ creators, loading }) => {
       ) : creators.length === 0 ? (
         <p style={{color: '#fff', textShadow: '0 2px 8px #000'}}>No content creators found.</p>
       ) : (
-        creators.map((creator) => (
-          <CreatorCard key={creator.id} {...creator} />
-        ))
+        <div style={{display: 'flex', flexWrap: 'wrap', gap: '2rem', justifyContent: 'center', marginTop: '2rem'}}>
+          {creators.map((creator) => (
+            <CreatorCard key={creator.id} {...creator} />
+          ))}
+        </div>
       )}
     </div>
   );

@@ -29,7 +29,7 @@ const AddCreator = () => {
   return (
     <form className="add-creator" onSubmit={handleSubmit}>
       <input name="name" value={form.name} onChange={handleChange} placeholder="Name" required />
-      <input name="url" value={form.url} onChange={handleChange} placeholder="Social media URL (i.e Youtube, Instagram , Twitch, etc)" required />
+      <input name="url" value={form.url} onChange={handleChange} placeholder="URL" required />
       <textarea name="description" value={form.description} onChange={handleChange} placeholder="Description" required />
       <input name="imageURL" value={form.imageURL} onChange={handleChange} placeholder="Image URL (optional)" />
       <button type="submit" disabled={loading}>Add Creator</button>
